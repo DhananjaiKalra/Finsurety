@@ -1,15 +1,16 @@
 @charset "UTF-8";
 .navigation {
-  height: 70px;
+  height: 80px;
   background: #ffffff;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.4);
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 .brand {
-  position: absolute;
+  /*position: fixed;*/
   padding-left: 20px;
-  padding top: 2px;
-  padding bottom: 2px;
   float: left;
   line-height: 70px;
   text-transform: uppercase;
@@ -43,7 +44,7 @@ nav ul li a,
 nav ul li a:visited {
   display: block;
   padding: 0 20px;
-  line-height: 70px;
+  line-height: 80px;
   background: #ffffff;
   color: #262626;
   text-decoration: none;
@@ -51,6 +52,7 @@ nav ul li a:visited {
 nav ul li a:hover,
 nav ul li a:visited:hover {
   background: #2581DC;
+  text-decoration: none;
   color: #ffffff;
 }
 nav ul li a:not(:only-child):after,
@@ -85,8 +87,8 @@ nav ul li ul li a {
   top: 0;
   right: 0;
   background: #262626;
-  height: 70px;
-  width: 70px;
+  height: 80px;
+  width: 80px;
 }
 
 @media only screen and (max-width: 798px) {
@@ -126,7 +128,7 @@ nav ul li ul li a {
   left: 18px;
   top: 22px;
   cursor: pointer;
-  padding: 10px 35px 16px 0px;
+  padding: 15px 35px 16px 0px;
 }
 #nav-toggle span,
 #nav-toggle span:before,
@@ -192,6 +194,7 @@ ul {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 2px;
+  position: relative;
 }
 .cta-text span {
   color: #ffffff;
@@ -199,7 +202,7 @@ ul {
 }
 .footer-content {
   position: relative;
-  z-index: 2;
+  /*z-index: 2;*/
 }
 .footer-pattern img {
   position: absolute;
