@@ -98,7 +98,7 @@ nav ul li ul li a {
 
   nav {
     width: 100%;
-    padding: 70px 0 15px;
+    padding: 0px 0 15px;
   }
   nav ul {
     display: none;
@@ -128,7 +128,7 @@ nav ul li ul li a {
   left: 18px;
   top: 22px;
   cursor: pointer;
-  padding: 15px 35px 16px 0px;
+  padding: 10px 35px 16px 0px;
 }
 #nav-toggle span,
 #nav-toggle span:before,
@@ -328,4 +328,27 @@ ul {
 .footer-menu li a {
   font-size: 14px;
   color: #878787;
+}
+/*middle css*/
+.main-bg {
+  height: 300px;
+  background-image: url("consfinal.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.img-overlay{
+  background:rgba(0,0,0,0.5);
+  width: 100%;
+  height: 100%;
+}
+@font-face {
+  font-family: Nexa;
+  src: url("Fonts/NexaDemo-Bold.woff");
+}
+.main-text{
+  color: white;
+  font-family: Nexa;
+  font-size: 65px;
+  padding: 0px 40px 0px 40px;
 }
