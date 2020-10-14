@@ -326,6 +326,12 @@ ul {
   font-size: 20px;
   padding: 0px 40px 0px 40px;
 }
+.body-text{
+  color: grey;
+
+  font-size: 16px;
+  padding: 0px 40px 0px 40px;
+}
 @media only screen and (max-width: 798px) {
   .nav-mobile {
     display: block;
@@ -354,11 +360,17 @@ ul {
   }
   .main-text-heading{
     font-size: 32px;
-    padding: 0px 20px 0px 20px;
+    padding: 0px 25px 0px 25px;
   }
   .main-text-subtext{
     font-size: 16px;
-    padding: 0px 20px 0px 20px;
+    padding: 0px 25px 0px 25px;
+  }
+  .body-text{
+    color: grey;
+    font-size: 15px;
+    padding: 25px 20px 0px 25px;
+    line-height: 1.7em;
   }
 }
 @media screen and (min-width: 799px) {
