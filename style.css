@@ -1,4 +1,4 @@
-@charset "UTF-8";
+g@charset "UTF-8";
 .navigation {
   height: 80px;
   background: #ffffff;
@@ -318,6 +318,12 @@ ul {
   color: white;
   font-family: Nexa;
   font-size: 65px;
+  padding: 0px 40px 0px 40px;
+}
+.main-text-subtext{
+  color: white;
+  font-family: Nexa;
+  font-size: 20px;
   padding: 0px 40px 0px 40px;
 }
 @media only screen and (max-width: 798px) {
