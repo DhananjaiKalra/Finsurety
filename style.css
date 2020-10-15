@@ -359,16 +359,16 @@ ul {
     position: static;
   }
   .main-text-heading{
-    font-size: 32px;
+    font-size: 38px;
     padding: 0px 25px 0px 25px;
   }
   .main-text-subtext{
-    font-size: 16px;
+    font-size: 20px;
     padding: 0px 25px 0px 25px;
   }
   .body-text{
     color: grey;
-    font-size: 15px;
+    font-size: 25px;
     padding: 25px 20px 0px 25px;
     line-height: 1.7em;
   }
@@ -397,7 +397,7 @@ ul {
   background-color: rgba(255, 255, 255, 0.8);
 
   padding: 20px;
-  font-size: 20px;
+  font-size: 16px;
   text-align: start;
 
 }
@@ -409,12 +409,30 @@ ul {
   text-align: start;
 
 }
+.button {
+  border: 2px solid black;
+  color: black;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  position: relative;
+  left: 50px;
+  top: 100px;
+}
+
+.button1 {background-color: black;}
 @media screen and (min-width: 799px) {
   .nav-list {
     display: block !important;
   }
   .main-text-heading{
-    font-size: 40px;
+    font-size: 35px;
   }
 
 }
