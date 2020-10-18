@@ -23,7 +23,7 @@
 }
 
 .nav-container {
-  max-width: 1000px;
+  max-width: 98%;
   margin: 0 auto;
 
 }
@@ -333,21 +333,12 @@ ul {
   padding: 0px 40px 0px 40px;
 }
 .grid-left{
-  color: grey;
-  line-height: 1.5em;
-  font-size: 16px;
   padding: 0px 20px 0px 40px;
 }
 .grid-right{
-  color: grey;
-  line-height: 1.5em;
-  font-size: 16px;
   padding: 0px 40px 0px 20px;
 }
 .grid-middle{
-  color: grey;
-  line-height: 1.5em;
-  font-size: 16px;
   padding: 0px 20px 0px 20px;
 }
 
@@ -382,18 +373,30 @@ ul {
     position: static;
   }
   .main-text-heading{
-    font-size: 38px;
+    font-size: 30px;
     padding: 0px 25px 0px 25px;
   }
   .main-text-subtext{
-    font-size: 20px;
+    font-size: 16px;
     padding: 0px 25px 0px 25px;
   }
   .body-text{
     color: grey;
-    font-size: 25px;
+    font-size: 15px;
     padding: 25px 20px 0px 25px;
     line-height: 1.7em;
+  }
+  .grid-left{
+    padding: 0px 20px 0px 20px;
+  }
+  .grid-right{
+    padding: 0px 20px 0px 20px;
+  }
+  .grid-middle{
+    padding: 0px 20px 0px 20px;
+  }
+  .grid-spacing{
+    padding: 20px 20px 20px 20px;
   }
 }
 /*.grid-container {*/
