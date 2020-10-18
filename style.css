@@ -330,7 +330,7 @@ ul {
   color: black;
   line-height: 1.5em;
   font-size: 16px;
-  padding: 0px 40px 0px 40px;
+  padding: 40px 40px 0px 40px;
 }
 .grid-left{
   padding: 0px 20px 0px 40px;
@@ -346,11 +346,61 @@ ul {
 .grid-spacing{
   padding: 40px 40px 40px 40px;
 }
+.div2 {
+  border-radius:10px;
+  width: 300px;
+  height: 130px;
+  padding: 20px;
+  box-sizing: border-box;
+  background: gold;
+}
+.div3 {
+  width: 300px;
+  height: 100px;
+  padding: 20px;
+  box-sizing: border-box;
+  background:peachpuff;
+  border: 10px black;
+}
+
+.div4{
+  width: 300px;
+  height: 150px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 5px solid green;
+  align-items:start;
+}
+
+ul {
+  list-style-type: bullet;
+  /*margin: 20px;*/
+  padding: 20px;
+}
+.button {
+  border: 2px solid black;
+  color: black;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  position: relative;
+  left: 50px;
+  top: 100px;
+}
+.button1 {background-color: black;}
+
+
+/*MOBILE CSS*/
 @media only screen and (max-width: 798px) {
   .nav-mobile {
     display: block;
   }
-
   nav {
     width: 100%;
     padding: 0px 0 15px;
@@ -368,7 +418,6 @@ ul {
   nav ul li ul li a {
     padding-left: 30px;
   }
-
   .nav-dropdown {
     position: static;
   }
@@ -383,7 +432,7 @@ ul {
   .body-text{
     color: grey;
     font-size: 15px;
-    padding: 25px 20px 0px 25px;
+    padding: 0px 25px 0px 25px;
     line-height: 1.7em;
   }
   .grid-left{
@@ -432,54 +481,6 @@ ul {
 /*  text-align: start;*/
 
 /*}*/
-.div2 {
-  border-radius:10px;
-  width: 300px;
-  height: 130px;
-  padding: 20px;
-  box-sizing: border-box;
-  background: gold;
-}
-.div3 {
-  width: 300px;
-  height: 100px;
-  padding: 20px;
-  box-sizing: border-box;
-  background:peachpuff;
-  border: 10px black;
-}
-
-.div4{
-  width: 300px;
-  height: 150px;
-  padding: 10px;
-  box-sizing: border-box;
-  border: 5px solid green;
-  align-items:start;
-}
-
-ul {
-  list-style-type: bullet;
-  margin: 20px;
-  padding: 20px;
-}
-.button {
-  border: 2px solid black;
-  color: black;
-  padding: 12px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
-  margin: 4px 2px;
-  border-radius: 12px;
-  cursor: pointer;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  position: relative;
-  left: 50px;
-  top: 100px;
-}
-.button1 {background-color: black;}
 @media screen and (min-width: 799px) {
   .nav-list {
     display: block !important;
