@@ -375,8 +375,9 @@ ul {
   align-items:start;
 }
 
-.ul-nav-list{
+.ul-sidenav-list{
   list-style-type: bullet;
+  padding: 0px 20px 0px 20px;
   /*margin: 20px;*/
   /*padding: 20px;*/
 }
