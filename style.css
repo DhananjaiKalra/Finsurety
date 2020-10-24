@@ -333,7 +333,7 @@ ul {
   color: dimgray;
   line-height: 1.5em;
   font-size: 16px;
-  padding: 40px 40px 40px 40px;
+  padding: 40px 40px 0px 40px;
 }
 .grid-left{
   padding: 0px 20px 0px 40px;
