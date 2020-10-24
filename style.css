@@ -378,8 +378,22 @@ ul {
 .ul-sidenav-list{
   list-style-type: bullet;
   padding: 0px 20px 0px 20px;
-  /*margin: 20px;*/
-  /*padding: 20px;*/
+  color: rgb(134, 206, 19);
+}
+.ul-sidenav-list{
+  list-style-type: bullet;
+  padding: 0px 20px 0px 20px;
+  color: rgb(162, 50, 49);
+}
+.ul-sidenav-list a {
+  /*background: #2581DC;*/
+  text-decoration: none;
+  color: rgb(162, 50, 49);
+}
+.ul-sidenav-list a:visited:hover {
+  /*background: #2581DC;*/
+  text-decoration: none;
+  color: rgb(134, 206, 19);
 }
 .button {
   border: 2px solid black;
