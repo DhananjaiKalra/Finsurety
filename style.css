@@ -331,7 +331,7 @@ ul {
 }
 .body-text{
   color: dimgray;
-  line-height: 1.5em;
+  line-height: 1.7em;
   font-size: 16px;
   padding: 40px 40px 0px 40px;
 }
@@ -376,13 +376,13 @@ ul {
 }
 
 .ul-sidenav-list{
-  list-style-type: bullet;
+  /*list-style-type: bullet;*/
   padding: 0px 20px 0px 20px;
   color: rgb(134, 206, 19);
 }
 .ul-sidenav-list{
-  list-style-type: bullet;
-  padding: 0px 20px 0px 20px;
+  /*list-style-type: bullet;*/
+  padding: 0px 0px 0px 0px;
   color: rgb(162, 50, 49);
 }
 .ul-sidenav-list a {
@@ -390,7 +390,7 @@ ul {
   text-decoration: none;
   color: rgb(162, 50, 49);
 }
-.ul-sidenav-list a:visited:hover {
+.ul-sidenav-list a:hover {
   /*background: #2581DC;*/
   text-decoration: none;
   color: rgb(134, 206, 19);
@@ -412,7 +412,22 @@ ul {
   top: 100px;
 }
 .button1 {background-color: black;}
+.make-me-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 90px;
 
+  /*padding: 0 15px;*/
+}
+
+.sidebar-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 40px 20px 20px 40px;
+}
 
 /*MOBILE CSS*/
 @media only screen and (max-width: 798px) {
@@ -450,7 +465,7 @@ ul {
   .body-text{
     color: grey;
     font-size: 15px;
-    padding: 0px 25px 0px 25px;
+    padding: 20px 15px 20px 15px;
     line-height: 1.7em;
   }
   .grid-left{
@@ -465,6 +480,23 @@ ul {
   .grid-spacing{
     padding: 20px 20px 20px 20px;
   }
+  .make-me-sticky {
+    position: relative;
+    position: relative;
+    top: 0;
+
+    /*padding: 0 15px;*/
+  }
+
+  .sidebar-item {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px 20px 20px 20px;
+  }
+
 }
 /*.grid-container {*/
 /*  display: grid;*/
@@ -499,6 +531,11 @@ ul {
 /*  text-align: start;*/
 
 /*}*/
+
+
+
+
+
 @media screen and (min-width: 799px) {
   .nav-list {
     display: block !important;
@@ -506,5 +543,4 @@ ul {
   .main-text-heading{
     font-size: 35px;
   }
-
 }
