@@ -1,7 +1,9 @@
 @charset "UTF-8";
 .navigation {
   height: 80px;
-  background: #ffffff;
+  /*background: #ffffff;*/
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 63%);
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.4);
   position: fixed;
   width: 100%;
@@ -10,9 +12,9 @@
 
 .brand {
   /*position: fixed;*/
-  padding-left: 150px;
+  padding-left: 100px;
   float: left;
-  line-height: 70px;
+  line-height: 60px;
   text-transform: uppercase;
   font-size: 1.4em;
 }
@@ -25,7 +27,8 @@
 .nav-container {
   max-width: 98%;
   margin: 0 auto;
-
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 72%);
 }
 
 nav {
@@ -48,8 +51,7 @@ nav ul li a:visited {
   display: block;
   padding: 0 20px;
   line-height: 80px;
-  background: #ffffff;
-  color: #262626;
+  color: #FFFFFF;
   text-decoration: none;
 }
 nav ul li a:hover,
@@ -74,6 +76,7 @@ nav ul li ul li a {
 .nav-dropdown {
   position: absolute;
   display: none;
+  background-color: white;
   z-index: 1;
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
 }
@@ -398,13 +401,13 @@ ul {
   text-decoration: none;
   display: inline-block;
   font-size: 20px;
-  margin: 4px 2px;
+  /*margin: 4px 2px;*/
   border-radius: 12px;
   cursor: pointer;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   position: relative;
-  left: 50px;
-  top: 100px;
+  left: 120px;
+  top: 20px;
 }
 .button1 {background-color: black;}
 .make-me-sticky {
@@ -414,6 +417,7 @@ ul {
 
   /*padding: 0 15px;*/
 }
+
 
 .sidebar-item {
   position: absolute;
