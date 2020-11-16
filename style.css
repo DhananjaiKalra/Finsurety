@@ -10,7 +10,7 @@
 
 .brand {
   /*position: fixed;*/
-  padding-left: 20px;
+  padding-left: 150px;
   float: left;
   line-height: 70px;
   text-transform: uppercase;
@@ -313,27 +313,22 @@ ul {
   width: 100%;
   height: 100%;
 }
-@font-face {
-  font-family: Nexa;
-  src: url("Fonts/NexaDemo-Bold.woff");
-}
 .main-text-heading{
   color: white;
-  font-family: Nexa;
-  font-size: 65px;
-  padding: 0px 40px 0px 40px;
+  font-size: 60px;
+  font-weight: bold;
+  padding: 60px 120px 10px 120px;
 }
 .main-text-subtext{
   color: white;
-  font-family: Nexa;
   font-size: 20px;
-  padding: 0px 40px 0px 40px;
+  padding: 10px 120px 0px 120px;
 }
 .body-text{
   color: dimgray;
   line-height: 1.7em;
   font-size: 16px;
-  padding: 40px 40px 0px 40px;
+  padding: 40px 120px 0px 120px;
 }
 .grid-left{
   padding: 0px 20px 0px 40px;
@@ -496,6 +491,9 @@ ul {
     height: 100%;
     padding: 20px 20px 20px 20px;
   }
+  .brand{
+    padding-left: 20px;
+  }
 
 }
 /*.grid-container {*/
@@ -540,7 +538,7 @@ ul {
   .nav-list {
     display: block !important;
   }
-  .main-text-heading{
-    font-size: 35px;
-  }
+  /*.main-text-heading{*/
+  /*  font-size: 35px;*/
+  /*}*/
 }
