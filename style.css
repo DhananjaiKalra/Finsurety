@@ -51,14 +51,14 @@ nav ul li a:visited {
   display: block;
   padding: 0 20px;
   line-height: 80px;
-  color: #FFFFFF;
+  color: white;
   text-decoration: none;
 }
 nav ul li a:hover,
 nav ul li a:visited:hover {
   background: #2581DC;
   text-decoration: none;
-  color: #ffffff;
+  color:black;
 }
 nav ul li a:not(:only-child):after,
 nav ul li a:visited:not(:only-child):after {
@@ -76,7 +76,7 @@ nav ul li ul li a {
 .nav-dropdown {
   position: absolute;
   display: none;
-  background-color: white;
+  background-color:black;
   z-index: 1;
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
 }
