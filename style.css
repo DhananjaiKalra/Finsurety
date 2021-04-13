@@ -283,6 +283,9 @@ ul {
   font-size: 22px;
   transform: rotate(-6deg);
 }
+.Circleimage {
+  border-radius: 50%;
+}
 .copyright-area{
   background: #202020;
   padding: 25px 0;
@@ -364,6 +367,7 @@ ul {
   font-weight: bold;
   padding: 60px 120px 10px 120px;
 }
+
 .main-text-subtext{
   color: white;
   font-size: 20px;
