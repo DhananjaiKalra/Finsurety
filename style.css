@@ -48,7 +48,7 @@ nav ul li {
   position: relative;
 }
 nav ul li li{
- position: relative ;
+  position: relative ;
 }
 nav ul li a,
 nav ul li a:visited {
@@ -146,8 +146,8 @@ article {
 }
 /* Footer */
 ul {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 .footer-section {
   background: #621717;
@@ -193,12 +193,12 @@ ul {
   margin-bottom: 30px;
 }
 .footer-logo img {
-    max-width: 200px;
+  max-width: 200px;
 }
 .footer-text p {
   margin-bottom: 14px;
   font-size: 14px;
-      color: #ffffff;
+  color: #ffffff;
   line-height: 28px;
 }
 .footer-social-icon span {
@@ -271,12 +271,12 @@ ul {
   color: #fff;
 }
 .subscribe-form button {
-    position: absolute;
-    right: 0;
-    background: #ffffff;
-    padding: 13px 20px;
-    border: 1px solid #ff5e14;
-    top: 0;
+  position: absolute;
+  right: 0;
+  background: #ffffff;
+  padding: 13px 20px;
+  border: 1px solid #ff5e14;
+  top: 0;
 }
 .subscribe-form button i {
   color: #fff;
@@ -308,38 +308,56 @@ ul {
 }
 /*middle css*/
 .main-bg {
-  height: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-.geeks {
+  height: 80vh;
   width: 100%;
-  height: 100%;
-  overflow: hidden;
+  /*background-image: url("bg.jpg");*/
+  /*background-repeat: no-repeat;*/
+  /*background-size: cover;*/
+  /*background-position: center;*/
+  /*transition: 0.5s all ease-in-out;*/
 }
+/*.main-bg:hover{*/
+/*  transform: scale(1.2);*/
 
-.geeks img {
-  /*width: 100%;*/
-  transition: 0.5s all ease-in-out;
-}
-
-.geeks:hover img {
-  transform: scale(1.2);
-}
-.centered {
-  font-size: 250%;
-  color: white;
-  font-family: "Lucida Handwriting", serif;
-  position: absolute;
-  top: 40%;
-  left: 10%;
-}
 .img-overlay{
   background:rgba(0,0,0,0.5);
   width: 100%;
-  height: 40%;
+  height: 100%;
 }
+.geeks {
+  /*width: 100%;*/
+  height: 80vh;
+  overflow: hidden;
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s all ease-in-out;
+}
+
+/*.geeks img {*/
+/*  width: 100%;*/
+/*  transition: 0.5s all ease-in-out;*/
+/*}*/
+
+.geeks:hover{
+  transform: scale(1.1);
+}
+.centered {
+    font-size: 250%;
+    color: white;
+    font-family: "Lucida Handwriting", serif;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+/*.img-overlay{*/
+/*    background:rgba(0,0,0,0.5);*/
+/*    width: 100%;*/
+/*    height: 40%;*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*}*/
 .main-text-heading{
   color: white;
   font-size: 60px;
