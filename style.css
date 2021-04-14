@@ -31,7 +31,14 @@
   background: rgb(255,255,255);
   background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 72%);
 }
-
+.button2{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); 
+}
 nav {
   float: inside;
   display:flex;justify-content:center;
