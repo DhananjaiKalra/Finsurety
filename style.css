@@ -357,12 +357,12 @@ ul {
   transition: 0.5s all ease-in-out;
 }
 .geeks2 img:hover{
-  transform: scale(1.2);
+  transform: scale(0.9);
 }
 .centered {
     font-size: 250%;
     color: white;
-    font-family: "Lucida Handwriting", serif;
+    font-family: "Georgia", serif;
     position: absolute;
     top: 40%;
     left: 10%;
