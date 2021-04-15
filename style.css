@@ -319,15 +319,15 @@ ul {
 .main-bg {
   height: 80vh;
   width: 100%;
-  /*background-image: url("bg.jpg");*/
-  /*background-repeat: no-repeat;*/
-  /*background-size: cover;*/
-  /*background-position: center;*/
-  /*transition: 0.5s all ease-in-out;*/
+}.main-bg-contact{
+  height: 35vh;
+  width: 100%;
+   overflow: hidden;
+   background-image: url("consfinal.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
 }
-/*.main-bg:hover{*/
-/*  transform: scale(1.2);*/
-
 .img-overlay{
   background:rgba(0,0,0,0.5);
   width: 100%;
@@ -343,9 +343,6 @@ ul {
   background-position: center;
   transition: 0.5s all ease-in-out;
 }
-
-
-
 .geeks:hover{
   transform: scale(1.1);
 }
@@ -486,6 +483,8 @@ ul {
 
   /*padding: 0 15px;*/
 }
+
+
 
 
 .sidebar-item {
