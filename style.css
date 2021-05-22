@@ -105,6 +105,9 @@ nav ul li ul li a {
   height: 80px;
   width: 80px;
 }
+.nav-ht-fix{
+  height: 140px;
+}
 
 #nav-toggle {
   position: absolute;
@@ -479,7 +482,7 @@ ul {
 .make-me-sticky {
   position: -webkit-sticky;
   position: sticky;
-  top: 90px;
+  top: 130px;
 
   /*padding: 0 15px;*/
 }
@@ -522,8 +525,14 @@ ul {
 
 /*MOBILE CSS*/
 @media only screen and (max-width: 798px) {
+  .navigation{
+    height: 80px;
+  }
   .nav-mobile {
     display: block;
+  }
+  .nav-ht-fix{
+    height: 80px;
   }
   nav {
     width: 100%;
