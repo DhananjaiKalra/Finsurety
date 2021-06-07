@@ -248,7 +248,8 @@ ul {
   padding: 0px;
 }
 .footer-section {
-  background: #621717;
+  /*background: #621717;*/
+  background: #610000;
   position: relative;
 }
 .footer-cta {
@@ -429,7 +430,7 @@ ul {
   height: 80vh;
   overflow: hidden;
   transition: 0.5s all ease-in-out;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("images/indexbg.jpg") no-repeat center;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/indexbg.jpg") no-repeat center;
   background-size: cover;
 }
 .bg-home:hover{
@@ -438,7 +439,7 @@ ul {
   height: 80vh;
   overflow: hidden;
   transition: 0.5s all ease-in-out;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("images/risk-advisory.jpg") no-repeat center;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/risk-advisory.jpg") no-repeat center;
   background-size: cover;
 }
 .bg-risk-advisory:hover{
@@ -448,7 +449,7 @@ ul {
   height: 80vh;
   overflow: hidden;
   transition: 0.5s all ease-in-out;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("images/indexbg.jpg") no-repeat center;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/tax-advisory.jpg") no-repeat center;
   background-size: cover;
 }
 .bg-tax-regulatory:hover{
@@ -458,7 +459,7 @@ ul {
   height: 80vh;
   overflow: hidden;
   transition: 0.5s all ease-in-out;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("images/indexbg.jpg") no-repeat center;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/indexbg.jpg") no-repeat center;
   background-size: cover;
 }
 .bg-indirect-tax:hover{
@@ -468,7 +469,7 @@ ul {
   height: 80vh;
   overflow: hidden;
   transition: 0.5s all ease-in-out;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("images/indexbg.jpg") no-repeat center;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/indexbg.jpg") no-repeat center;
   background-size: cover;
 }
 .bg-direct-tax:hover{
@@ -478,7 +479,7 @@ ul {
   height: 80vh;
   overflow: hidden;
   transition: 0.5s all ease-in-out;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("images/finanical-accounting.jpg") no-repeat center;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/finanical-accounting.jpg") no-repeat center;
   background-size: cover;
 }
 .bg-financial-accounting:hover{
@@ -488,7 +489,7 @@ ul {
   height: 80vh;
   overflow: hidden;
   transition: 0.5s all ease-in-out;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("images/indexbg.jpg") no-repeat center;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/corporate-finance.jpg") no-repeat center;
   background-size: cover;
 }
 .bg-corporate-finance:hover{
@@ -497,10 +498,30 @@ ul {
   height: 80vh;
   overflow: hidden;
   transition: 0.5s all ease-in-out;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("images/auditing-and-assurance.jpg") no-repeat center;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/auditing-and-assurance.jpg") no-repeat center;
   background-size: cover;
 }
 .bg-auditing-assurance:hover{
+  transform: scale(1.1);
+}
+.bg-company-secretarial {
+  height: 80vh;
+  overflow: hidden;
+  transition: 0.5s all ease-in-out;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/company-secretarial.jpg") no-repeat center;
+  background-size: cover;
+}
+.bg-company-secretarial:hover{
+  transform: scale(1.1);
+}
+.bg-careers {
+  height: 80vh;
+  overflow: hidden;
+  transition: 0.5s all ease-in-out;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/contact-us.jpg") no-repeat center;
+  background-size: cover;
+}
+.bg-careers:hover{
   transform: scale(1.1);
 }
 .geeks2{
@@ -514,12 +535,18 @@ ul {
   transform: scale(0.9);
 }
 .centered {
-    font-size: 250%;
+    /*font-size: 250%;*/
     color: white;
-    font-family: "Georgia", serif;
-    position: absolute;
-    top: 45%;
+    /*font-family: "Georgia", serif;*/
+    /*position: absolute;*/
+    /*!*top: 45%;*!*/
     left: 10%;
+  margin: 0;
+  position: absolute;
+  top: 55%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  /*line-height: 1vh;*/
 }
 /*.img-overlay{*/
 /*    background:rgba(0,0,0,0.5);*/
@@ -533,7 +560,7 @@ ul {
 /*}*/
 .main-text-heading{
   color: white;
-  font-size: 60px;
+  font-size: 8vh;
   font-weight: bold;
   /*padding: 60px 120px 10px 120px;*/
 }
@@ -547,13 +574,14 @@ ul {
   color: dimgray;
   line-height: 1.7em;
   font-size: 16px;
-  padding: 40px 120px 0px 120px;
+  /*padding: 40px 120px 0px 120px;*/
+  padding: 40px 9vw 0 9vw;
 }
 .body-text-2{
   color: dimgray;
   line-height: 1.7em;
   font-size: 16px;
-  padding: 40px 120px 0px 0px;
+  padding: 40px 9vw 0px 0px;
   text-align: justify;
 }
 
@@ -613,17 +641,20 @@ ul {
 .ul-sidenav-list{
   /*list-style-type: bullet;*/
   padding: 0px 0px 0px 0px;
-  color: rgb(162, 50, 49);
+  color: #610000;
 }
 .ul-sidenav-list a {
   /*background: #2581DC;*/
-  text-decoration: none;
-  color: rgb(162, 50, 49);
+  text-decoration: underline rgba(255,255 ,255 ,0);
+  color: #610000
+
 }
 .ul-sidenav-list a:hover {
   /*background: #2581DC;*/
-  text-decoration: none;
+  padding-left: 10px;
+  text-decoration: underline;
   color: rgb(134, 206, 19);
+  transition: all 0.2s ease-in;
 }
 .button {
   border: 2px solid black;
@@ -695,7 +726,7 @@ ul {
 
 
   .main-text-heading{
-    font-size: 30px;
+    /*font-size: 30px;*/
     padding: 0px 25px 0px 25px;
   }
   .main-text-subtext{
@@ -705,14 +736,14 @@ ul {
   .body-text{
     color: grey;
     font-size: 15px;
-    padding: 20px 15px 20px 15px;
-    line-height: 1.7em;
+    /*padding: 20px 15px 20px 15px;*/
+    line-height: 1.7em;x
   }
   .body-text-2{
     color: gray;
     line-height: 1.7em;
     font-size: 15px;
-    padding: 20px 15px 20px 15px;
+    /*padding: 20px 15px 20px 15px;*/
   }
 
   .grid-left{
