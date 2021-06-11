@@ -547,6 +547,46 @@ ul {
 .bg-careers:hover{
   transform: scale(1.1);
 }
+.bg-the-firm {
+  height: 80vh;
+  overflow: hidden;
+  transition: 0.5s all ease-in-out;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/the-firm.jpg") no-repeat center;
+  background-size: cover;
+}
+.bg-the-firm:hover{
+  transform: scale(1.1);
+}
+.bg-our-team {
+  height: 80vh;
+  overflow: hidden;
+  transition: 0.5s all ease-in-out;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/our-team.jpg") no-repeat center;
+  background-size: cover;
+}
+.bg-our-team:hover{
+  transform: scale(1.1);
+}
+.bg-news-letter {
+  height: 80vh;
+  overflow: hidden;
+  transition: 0.5s all ease-in-out;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/news-letter.jpg") no-repeat center;
+  background-size: cover;
+}
+.bg-news-letter:hover{
+  transform: scale(1.1);
+}
+.bg-sectors {
+  height: 80vh;
+  overflow: hidden;
+  transition: 0.5s all ease-in-out;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/sectors.jpg") no-repeat center;
+  background-size: cover;
+}
+.bg-sectors:hover{
+  transform: scale(1.1);
+}
 .geeks2{
   overflow: hidden;
 }
