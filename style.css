@@ -253,7 +253,9 @@ body {
 
 
 
-
+.footer-call-fix{
+  padding-left: 60px
+}
 
 article {
   max-width: 1000px;
@@ -278,7 +280,7 @@ ul {
   color: #ff5e14;
   font-size: 30px;
   float: left;
-  margin-top: 8px;
+  margin-top: 16px;
 }
 .cta-text {
   padding-left: 15px;
@@ -758,12 +760,12 @@ ul {
   }
 
   .main-text-heading{
-    /*font-size: 30px;*/
-    padding: 0px 25px 0px 25px;
+    font-size: 40px;
+    padding: 0 15px 0 15px;
   }
   .main-text-subtext{
     font-size: 16px;
-    padding: 0px 25px 0px 25px;
+    padding: 0px 20px 0px 20px;
   }
   .body-text{
     background-color: white;
@@ -778,7 +780,7 @@ ul {
     color: gray;
     line-height: 1.7em;
     font-size: 15px;
-    /*padding: 20px 15px 20px 15px;*/
+    padding: 20px 20px 20px 20px;
   }
 
   .grid-left{
@@ -800,6 +802,12 @@ ul {
 
     /*padding: 0 15px;*/
   }
+  .pane-left{
+    padding: 0 0 0 0;
+  }
+  .padding-right{
+    padding: 0 0 0 0;
+  }
 
   .sidebar-item {
     position: relative;
@@ -812,7 +820,9 @@ ul {
   .brand{
     padding-left: 20px;
   }
-
+  .footer-call-fix{
+    padding-left: 0;
+  }
 }
 /*.grid-container {*/
 /*  display: grid;*/
