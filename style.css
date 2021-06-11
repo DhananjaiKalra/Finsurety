@@ -865,6 +865,9 @@ ul {
   .footer-call-fix{
     padding-left: 0;
   }
+  .centered{
+    left: 5%;
+  }
 }
 /*.grid-container {*/
 /*  display: grid;*/

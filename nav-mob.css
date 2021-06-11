@@ -17,7 +17,8 @@ div#navtoggler{  /* Sample burger icon to toggle menu state */
   width: 6em;
   height: 2.5em;
   top: 0;
-  left: 40vw;
+  /*left: 40vw;*/
+margin: auto;
   text-indent: -1000px;
   border: 0.6em solid grey;
   /*color: #2E2E2E;*/
