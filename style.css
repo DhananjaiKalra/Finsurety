@@ -868,6 +868,7 @@ ul {
   }
   .centered{
     left: 5%;
+    right: 5%;
   }
 }
 /*.grid-container {*/
