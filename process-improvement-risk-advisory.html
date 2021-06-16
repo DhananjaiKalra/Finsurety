@@ -21,6 +21,9 @@ maximum-scale=1.0, user-scalable=no" />
     <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
     <link rel="manifest" href="favicon_io/site.webmanifest">
+    <script type="text/javascript" src="whatsapp/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="whatsapp/floating-wpp.min.js"></script>
+    <link rel="stylesheet" href="whatsapp/floating-wpp.min.css">
 </head>
 <body style="overflow-x: hidden">
 <!-- partial:index.partial.html -->
@@ -483,6 +486,18 @@ maximum-scale=1.0, user-scalable=no" />
     </div>
 </div>
 
-
+<div id="myDiv"></div>
 </body>
+<script type="text/javascript">
+    $(function () {
+        $('#myDiv').floatingWhatsApp({
+            phone: '+917895977777',
+            popupMessage: 'Hello, how may we assist you?',
+            showPopup: true,
+            headerTitle: 'Connect with us on WhatsApp!', //Popup Title
+            position: "right",
+            showOnIE: true
+        });
+    });
+</script>
 </html>
